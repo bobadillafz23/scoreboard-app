@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bobadillafz23/scoreboard-app.git/static/css/main.bbcded49.css",
+    "main.js": "/bobadillafz23/scoreboard-app.git/static/js/main.fc9c4dc7.js",
+    "static/js/453.91677e99.chunk.js": "/bobadillafz23/scoreboard-app.git/static/js/453.91677e99.chunk.js",
+    "index.html": "/bobadillafz23/scoreboard-app.git/index.html",
+    "main.bbcded49.css.map": "/bobadillafz23/scoreboard-app.git/static/css/main.bbcded49.css.map",
+    "main.fc9c4dc7.js.map": "/bobadillafz23/scoreboard-app.git/static/js/main.fc9c4dc7.js.map",
+    "453.91677e99.chunk.js.map": "/bobadillafz23/scoreboard-app.git/static/js/453.91677e99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbcded49.css",
+    "static/js/main.fc9c4dc7.js"
+  ]
+}
