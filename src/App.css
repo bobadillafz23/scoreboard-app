@@ -1,38 +1,93 @@
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  padding: 20px;
+  background-color: #f0f0f0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
   color: white;
+  font-size: 1.2em;
 }
 
-.App-link {
-  color: #61dafb;
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilo para el ganador */
+.winner {
+  background-color: #fff3cd; /* Fondo dorado claro */
+  font-weight: bold;
+  color: #856404; /* Texto dorado oscuro */
+}
+
+form {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+select {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para el botón de reinicio */
+button.reset {
+  background-color: #ff4444;
+}
+
+button.reset:hover {
+  background-color: #cc0000;
 }
